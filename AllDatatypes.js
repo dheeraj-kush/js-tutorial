@@ -40,3 +40,30 @@ const myFunc = function(){
     console.log("Hello World");
 }
 console.log(typeof myFunc);
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Stack and heap memory in java script.  */
+
+// stack (primitive), Heap (Non-Primitive)
+
+//this Ex of Stack ->
+let myName = "dheeraj sanjay kushwaha"
+
+let otherName = myName
+otherName = "Dheeraj" 
+console.log(myName);
+console.log(otherName);
+
+// this Ex of Heap ->
+let userOne = {
+    email: "dheeraj@gmail.com",
+    upi: "user@ybl"
+}
+console.table(userOne);
+
+           /* +++++ SUMMARY +++++ */
+// Stack -> all primitive values store in stack and Stack is given the copys value. 
+// Heap ->heap are stores the refence value and heap is non-primitive value stores.
